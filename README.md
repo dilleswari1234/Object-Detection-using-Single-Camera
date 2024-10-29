@@ -37,27 +37,19 @@ pip install opencv-python-headless streamlit
 
 Two pre-trained models are included in this project for object detection. Make sure they are in the correct directory specified in `app.py`.
 
-- **Model 1:** `model1.pth`
-- **Model 2:** `model2.pth`
-
-### Note:
-If the models are not included in this repository due to file size, follow these steps to download them:
-
-1. Download the models from the [model download link].
-2. Place the models in the `models` directory or the path specified in `app.py`.
+- **Model 1:** `yolov4-tiny.cfg`
+- **Model 2:** `yolov4-tiny.weights`
 
 ## Project Structure
 
 ```
 Object-Detection-using-Single-Camera/
 ├── app.py               # Main application file to run
-├── models/              # Folder to store pre-trained models
 ├── data/                # Folder for images and videos used for detection
 ├── README.md            # Project documentation
 ```
 
 - **`app.py`**: This file contains the main application code and initiates the object detection pipeline.
-- **`models/`**: Stores pre-trained models. Ensure that the model files are here or in the specified path in `app.py`.
 - **`data/`**: Place any images or videos here for testing purposes.
 
 ## Using the Application
