@@ -1,6 +1,6 @@
 ---
 
-# [Object Detection using Single Camera](https://object-detection-using-single-camera.streamlit.app/)
+# Object Detection using Single Camera
 
 This project implements object detection using a single camera with pre-trained models. The application is built with Streamlit for easy interaction and OpenCV for image processing.
 
